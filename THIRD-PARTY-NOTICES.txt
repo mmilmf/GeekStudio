@@ -1,0 +1,50 @@
+Geek Studio Recorder - Third-Party Notices
+==========================================
+
+This distribution bundles the following third-party components. Their license
+texts are available at the listed locations.
+
+License copies included in this distribution:
+  licenses/LGPL-3.0.txt              (GNU LGPL v3 - FFmpeg)
+  licenses/RNNoise-BSD-3-Clause.txt  (BSD 3-Clause - RNNoise)
+
+1) FFmpeg
+   - Files: ffmpeg.exe, ffprobe.exe, avutil-60.dll, avcodec-62.dll,
+     avformat-62.dll, avdevice-62.dll, avfilter-11.dll, swscale-9.dll,
+     swresample-6.dll
+   - Version: n8.1.2-50-g1a748fe2cd-20260831
+   - License: LGPL v3 or later (built with --enable-version3). The GPL
+     encoders libx264 / libx265 / libxvid / libxavs2 are DISABLED in this
+     build, so the LGPL applies.
+   - Build configuration: see `ffmpeg -version` output (full --enable/--disable
+     list).
+   - Source: https://ffmpeg.org/download.html (matching release) or
+     https://git.ffmpeg.org/ffmpeg.git
+   - License text: https://www.gnu.org/licenses/lgpl-3.0.html
+   - License copy in this distribution: licenses/LGPL-3.0.txt
+   - Obtaining the source (LGPL v3, section 4): the exact FFmpeg source for
+     this build is available from https://ffmpeg.org/download.html or
+     https://git.ffmpeg.org/ffmpeg.git (matching the version above). The
+     build configuration is shown by `ffmpeg -version`. You may rebuild and
+     relink against these LGPL libraries; the main application is NOT GPL
+     and may stay under its own permissive terms.
+
+2) RNNoise (editor, statically linked)
+   - Copyright (c) 2017-2019, Xiph.Org Foundation
+   - License: BSD 3-Clause
+   - Source: https://github.com/xiph/rnnoise
+   - License copy in this distribution: licenses/RNNoise-BSD-3-Clause.txt
+
+3) Open Screen (assets: background wallpapers, cursor and key-effects images)
+   - Copyright (c) 2019-2022, The Open Screen Authors
+   - License: BSD 3-Clause
+   - Source: https://openscreen.googlesource.com/openscreen
+   - License copy in this distribution: licenses/OpenScreen-BSD-3-Clause.txt
+
+4) Rust dependencies
+   - All Rust crates (see Cargo.lock) are licensed under MIT and/or
+     Apache-2.0, BSD-3-Clause, ISC or similar permissive licenses.
+
+NOTE: The recorder/editor executables are NOT GPL. FFmpeg is loaded as
+separate shared libraries under the LGPL, so the main application may be
+distributed under its own permissive terms.
