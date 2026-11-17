@@ -1,4 +1,4 @@
-﻿# Geek Studio Recorder
+﻿# Geek Studio
 
 > 轻量级 Windows 屏幕录制 + 视频编辑工具（由两个工具组成）
 >
@@ -8,9 +8,20 @@
 
 ## 截图
 
+**① 录制器** — 悬浮药丸条：选源（屏幕/窗口/区域）、麦克风、系统音、一键开始/停止（Ctrl+Alt+R）。
+
 ![录制器主界面](docs/screenshots/01-main.png)
+
+**② 设置** — 录制完成后自动打开编辑器、暂停/停止策略等。
+
 ![设置面板](docs/screenshots/02-settings.png)
+
+**③ 编辑器** — 时间线剪辑、音频降噪（RNNoise）、导出 GIF/MP4。
+
 ![编辑器](docs/screenshots/03-editor.png)
+
+**④ 导出** — 选择 GIF/MP4 格式与参数。
+
 ![导出对话框](docs/screenshots/04-export.png)
 
 ---
@@ -38,7 +49,7 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) 下载 `GeekStudioRecorder-vX.Y.Z-win64.zip`（Windows x64）
+1. 从 [Releases](https://github.com/mmilmf/GeekStudio/releases) 下载 `GeekStudio-vX.Y.Z-win64.zip`（Windows x64）
 2. 解压到任意目录（**所有文件放在同一目录**，直接可用）
 3. 双击 `gsr-recorder.exe` 启动录制器
 4. **WebView2 运行时**：Windows 11 及较新的 Windows 10 通常已内置（经 Edge 更新）；若启动时提示缺少，安装 [WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)

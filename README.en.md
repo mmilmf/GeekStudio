@@ -1,4 +1,4 @@
-﻿# Geek Studio Recorder
+﻿# Geek Studio
 
 > Lightweight Windows screen recorder + video editor (two tools in one)
 >
@@ -8,9 +8,20 @@
 
 ## Screenshots
 
+**① Recorder** — floating pill bar: source (screen/window/region), mic, system audio, one-hotkey start/stop (Ctrl+Alt+R).
+
 ![Recorder main UI](docs/screenshots/01-main.png)
+
+**② Settings** — auto-open editor after recording, pause/stop policy, etc.
+
 ![Settings](docs/screenshots/02-settings.png)
+
+**③ Editor** — timeline editing, audio denoise (RNNoise), export GIF/MP4.
+
 ![Editor](docs/screenshots/03-editor.png)
+
+**④ Export** — choose GIF/MP4 format and parameters.
+
 ![Export dialog](docs/screenshots/04-export.png)
 
 ---
@@ -38,7 +49,7 @@
 
 ## Install
 
-1. Download `GeekStudioRecorder-vX.Y.Z-win64.zip` from [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) (Windows x64)
+1. Download `GeekStudio-vX.Y.Z-win64.zip` from [Releases](https://github.com/mmilmf/GeekStudio/releases) (Windows x64)
 2. Extract to any folder (**all files stay in one folder**, ready to run)
 3. Double-click `gsr-recorder.exe` to launch the recorder
 4. **WebView2 runtime**: usually preinstalled on Windows 11 and recent Windows 10 (via Edge updates); if missing, install the [WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)

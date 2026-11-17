@@ -1,4 +1,4 @@
-# Geek Studio Recorder v0.1.0
+# Geek Studio v0.1.0
 
 首个公开版本。
 
@@ -25,4 +25,4 @@
 
 ## 下载
 
-见本 Release 资产：`GeekStudioRecorder-v0.1.0-win64.zip` + `.sha256`
+见本 Release 资产：`GeekStudio-v0.1.0-win64.zip` + `.sha256`
